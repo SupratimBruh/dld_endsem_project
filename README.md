@@ -1,4 +1,6 @@
 # FPGA Mini-Games Console
+# Supratim Das CS25B057
+# Utkarsh Pandey CS25B051
 
 A digital logic design project: six mini-games on one FPGA board, written in Verilog and built with Vivado. Games are selected with three slide switches.
 
