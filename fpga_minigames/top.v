@@ -3,8 +3,8 @@
 module top #(
     parameter CLK_HZ          = 50_000_000,  // onboard oscillator frequency
     parameter BTN_ACTIVE_HIGH = 1,           // 0 if buttons read 0 when pressed
-    parameter SEG_ACTIVE_LOW  = 0,           // 1 if a segment lights with logic 0
-    parameter AN_ACTIVE_LOW   = 0            // 1 if a digit enable is active-low
+    parameter SEG_ACTIVE_LOW  = 1,           // EDGE display segments are active-low
+    parameter AN_ACTIVE_LOW   = 0            // EDGE digit enables are active-high
 )(
     input  wire        clk,
     input  wire [11:0] sw,
